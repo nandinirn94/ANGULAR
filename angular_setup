@@ -1,0 +1,12 @@
+//install node js into system
+//check node version once installed by running command.
+   node -v
+
+//check npm version also
+   npm -v
+
+//install angular js CLI using the below command
+   sudo npm install -g @angular/cli
+
+//once installed check the version .
+   ng v
