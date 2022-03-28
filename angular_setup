@@ -10,3 +10,16 @@
 
 //once installed check the version .
    ng v
+
+//change to the current directory for setting up a new application
+   cd /Users/nandinirn/Documents/GitHub
+
+// create a new application using new or create command
+   ng new angular_js
+
+//change to the directory of the application created
+   cd angular_js
+
+//create a server to run the application
+   ng server
+   
