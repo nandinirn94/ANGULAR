@@ -20,6 +20,5 @@
 //change to the directory of the application created
    cd angular_js
 
-//create a server to run the application
-   ng server
-   
+//Serve the created application
+   ng serve
