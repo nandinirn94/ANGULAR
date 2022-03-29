@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StyleBindComponent implements OnInit {
   public name = "NANDU"; 
+  public haserror = true;
+  public highlight = false;
+  public merge={
+    color: 'purple',
+    fontStyle: 'italic'
+  }
   constructor() { }
 
   ngOnInit(): void {

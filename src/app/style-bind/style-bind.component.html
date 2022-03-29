@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <h2>HELLO </h2>
+        <h2>HELLO {{name}}</h2>
         <h2 [style.color]="'blue'">This is style binding</h2>
+        <h2 [style.color]="haserror? 'green' : 'red'">Style binding</h2>
+        <h2 [ngStyle]="merge">This is style binding</h2>
+    
     </body>
 </html>
