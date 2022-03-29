@@ -1,0 +1,42 @@
+<html>
+<head>
+<title> hello world !! </title>
+</head>
+<body bgcolor=“#901299”>
+	<br><br><h1 style="text-align:center; color:white; font-family:trebuchet; ">Output Statements</h1>
+
+		<fieldset style="margin:auto; width:400px; height:200px; border:5px solid white; font-size:20px; background:pink; ">
+			<label style="text-align:center;" >DIVISION
+			</label><br><br>
+			Enter first number: <input type="number" id="num1"/>
+			<br>Enter second number: <input type="number" id="num2"/>
+			<br><br><input type="button" id="but" value="Quotient" onClick="divis()"/>
+			<p id="num3" style="color:red; font-size:22px; "/>
+		</fieldset>
+
+      <script type="text/javascript">
+     	
+	function divis()
+	{
+		let n1, n2, n3;
+		n1 = document.getElementById("num1").value;
+		n2 = document.getElementById("num2").value;
+		n3=n1/n2;
+		if(n2 == 0)
+		{
+			window.alert("Division cannot be done !!");	
+		}
+		else if(n3<=50)
+		{
+		    document.getElementById("num3").innerHTML = "The Quotient is :: " + n3;	
+		}
+		else
+		{
+		      document.write("The quotient is :: " + n3);	
+		}
+
+	}
+	
+      </script>
+</body>
+</html> 
