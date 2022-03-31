@@ -9,6 +9,7 @@ import { EventBindComponent } from './event-bind/event-bind.component';
 import { TemRefVarComponent } from './tem-ref-var/tem-ref-var.component';
 import { NgModelComponent } from './ng-model/ng-model.component';
 import { FormsModule } from '@angular/forms';
+import { NgIfComponent } from './ng-if/ng-if.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { FormsModule } from '@angular/forms';
     StyleBindComponent,
     EventBindComponent,
     TemRefVarComponent,
-    NgModelComponent
+    NgModelComponent,
+    NgIfComponent
   ],
   imports: [
     BrowserModule,
