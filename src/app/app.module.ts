@@ -6,17 +6,23 @@ import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { StyleBindComponent } from './style-bind/style-bind.component';
 import { EventBindComponent } from './event-bind/event-bind.component';
+import { TemRefVarComponent } from './tem-ref-var/tem-ref-var.component';
+import { NgModelComponent } from './ng-model/ng-model.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
     StyleBindComponent,
-    EventBindComponent
+    EventBindComponent,
+    TemRefVarComponent,
+    NgModelComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
