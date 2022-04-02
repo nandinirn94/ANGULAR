@@ -10,6 +10,7 @@ import { TemRefVarComponent } from './tem-ref-var/tem-ref-var.component';
 import { NgModelComponent } from './ng-model/ng-model.component';
 import { FormsModule } from '@angular/forms';
 import { NgIfComponent } from './ng-if/ng-if.component';
+import { CompInterComponent } from './comp-inter/comp-inter.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NgIfComponent } from './ng-if/ng-if.component';
     EventBindComponent,
     TemRefVarComponent,
     NgModelComponent,
-    NgIfComponent
+    NgIfComponent,
+    CompInterComponent
   ],
   imports: [
     BrowserModule,

@@ -24,8 +24,12 @@
 <!-- app-ng-model for flow data from element to class properties to the HTML template  
 <app-ng-model></app-ng-model> -->
 
-<!-- app-ng-if for template refernce variables -->
-<app-ng-if></app-ng-if> 
+<!-- app-ng-if for template refernce variables 
+<app-ng-if></app-ng-if> -->
+
+<!-- app-comp-inter is used for components interaction -->
+<!-- < app-comp-inter [parentData] = 'name' ></app-comp-inter> --> 
+<app-comp-inter (childEvent)="message=$event" [parentData]="name"></app-comp-inter>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->

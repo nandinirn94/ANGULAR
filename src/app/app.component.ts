@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  public name = "NANDINI";
+  public message="";
   title = 'angular_js';
 }
