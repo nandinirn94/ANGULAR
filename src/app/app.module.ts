@@ -11,6 +11,8 @@ import { NgModelComponent } from './ng-model/ng-model.component';
 import { FormsModule } from '@angular/forms';
 import { NgIfComponent } from './ng-if/ng-if.component';
 import { CompInterComponent } from './comp-inter/comp-inter.component';
+import { DepInjecComponent } from './dep-injec/dep-injec.component';
+import { EmpService } from './emp.service';
 
 @NgModule({
   declarations: [
@@ -21,14 +23,15 @@ import { CompInterComponent } from './comp-inter/comp-inter.component';
     TemRefVarComponent,
     NgModelComponent,
     NgIfComponent,
-    CompInterComponent
+    CompInterComponent,
+    DepInjecComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ EmpService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
