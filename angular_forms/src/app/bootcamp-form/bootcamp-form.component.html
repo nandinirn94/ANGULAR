@@ -1,0 +1,44 @@
+<div class="container-fluid mb-5">
+<h1>BOOTCAMP APPLICATION FORM</h1>
+{{userform.value | json}}
+<hr>
+{{usermodel | json}}
+<form #userform="ngForm">
+
+<div ngModelGroup="name-group">
+    <div>
+        <label>FIRST NAME ::: </label><br>
+        <input [(ngModel)]="usermodel.fname" type="text" name="fname" class="form-control" />
+    </div>
+    <div>
+        <label>LAST NAME ::: </label><br>
+        <input [ngModel]="usermodel.lname" type="text" name="Lname" class="form-control" />
+    </div>
+</div>
+
+<div class="form-group">
+    <label>EMAIL ::: </label><br>
+    <input required [ngModel]="usermodel.mail" type="email" name="mail" class="form-control" />
+</div>
+
+<div class="form-group">
+    <label>PHONE ::: </label><br>
+    <input [ngModel]="usermodel.phone" type="tel" name="phone" class="form-control" />
+</div>
+
+<div class="form-group">
+    <label>AGE ::: </label><br>
+    <input [ngModel]="usermodel.age" type="number" name="age" class="form-control" />
+</div>
+
+<div class="form-group">
+    <label>ADDRESS ::: </label><br>
+    <input [ngModel]="usermodel.address" type="address" name="add" class="form-control" />
+</div>
+<br>
+<div class="form-group">
+    <button ngModel name="submit_but" type="submit" name="" class="form-control">Submit Form</button>
+</div> 
+
+</form>
+</div>

@@ -1,0 +1,30 @@
+//install node js into system
+//check node version once installed by running command.
+   node -v
+
+//check npm version also
+   npm -v
+
+//install angular js CLI using the below command
+   sudo npm install -g @angular/cli
+
+//once installed check the version .
+   ng v
+
+//change to the current directory for setting up a new application
+   cd /Users/nandinirn/Documents/GitHub
+
+// create a new application using new or create command
+   ng new angular_js
+
+//change to the directory of the application created
+   cd angular_js
+
+//Serve the created application
+   ng serve
+
+//Access to saving new code is denied, then change the permissions using the below command
+   sudo chown -R nandinirn binding 
+
+//command to generate a new component.
+   ng g c <component_name>
